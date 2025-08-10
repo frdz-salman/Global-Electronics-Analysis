@@ -21,6 +21,7 @@
 ## Project Background
 
 Global Electronics Retailer is a multinational company selling a wide range of consumer electronics through both online and physical stores. The time series dataset contains details on customers, locations, products, sales, stores, and deliveries. The purpose of the analysis is to understand user behavior, identify trends, evaluate category performance, and provide data-driven recommendations to improve customer experience.
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/ERD.webp)
 
 ---
 
