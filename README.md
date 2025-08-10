@@ -21,6 +21,7 @@
 ## Project Background
 
 Global Electronics Retailer is a multinational company selling a wide range of consumer electronics through both online and physical stores. The time series dataset contains details on customers, locations, products, sales, stores, and deliveries. The purpose of the analysis is to understand user behavior, identify trends, evaluate category performance, and provide data-driven recommendations to improve customer experience.
+
 ![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/ERD.webp)
 
 ---
@@ -39,6 +40,10 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 - Sales dropped 49% in 2020 from $18.2M to $9.3M due to the COVID-19 pandemic impact.
 - Seasonal peaks occur between December–February, with slowdowns in March–April reflecting typical retail patterns.
 
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Sales%20Trends.webp)
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Annual%20Trends.webp)
+
 ### Geographic Performance
 
 - North America contributes 61.9% of total sales and accounts for 57.9% of the customer base (6,847 out of 11,820).
@@ -47,6 +52,8 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
   - The U.K. alone contributed 12.8% of total revenue ($7M), with 13.2% of the customer base (1,566 out of 11,820).
 - All top 10 performing states by revenue are in the U.S., each contributing 2.1% - 2.5% of total sales, serving 500+ customers with average $900 per-customer revenue.
 
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Sales%20Geo.webp)
+
 ### Customer Demographics & Lifecycle
 
 - The "Prime" age group (25–54) consistently leads annual revenue, averaging $4.9M per year, solidifying its role as the core segment.
@@ -54,11 +61,17 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 - Unique customers increased from 2,561 (2016) to 6,497 (2019), then decreased 40% to 3,868 in 2020 due to pandemic impact.
 - Repeat purchase rate (≥ 2 orders) grew steadily from 10.9% (2016) to 30.1% (2019), before falling to 17.2% in 2020.
 
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Customer.webp)
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Age%20Dist.webp)
+
 ### Channel & Store Performance
 
 - Physical stores significantly outperform online, contributing 79.7% of revenue ($43.6M) while online accounts for only 20.3% ($11.1M).
 - Large stores lead performance with $26.4M in revenue, followed by Medium ($15.7M) and Small stores ($1.47M).
 - Store size directly correlates with higher sales and customer reach, highlighting scale as a key profitability driver.
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Store.webp)
 
 ### Sales Patterns & Operations
 
@@ -67,6 +80,12 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
   - Sunday significantly lags with only $893K (6.8% of Saturday's total).
 - Average delivery time is 4.55 days, reflecting solid logistics performance and customer expectations.
 - Delivery efficiency has increased dramatically from 8+ days in 2016 to ~4 days in 2020, showing strong operational gains.
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Day%20detail.webp)
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Age%20Dist.webp)
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/weekend_weekday.webp)
 
 ### Product Performance
 
@@ -79,12 +98,16 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
   - Boxed Games 5.6% of units sold (10,825) but only 0.16% of revenue ($90.1K).
 - Washers & Dryers demonstrate premium positioning only 1,174 units sold but generate over $2.1M, with $1,000+ profit per unit.
 
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Product.webp)
+
 ### Brand Performance
 
 - Top 3 brands dominate revenue: Adventure Works (21.2%), Contoso (19.4%), and Wide World Importers (16.5%) contribute a combined 57.1% of total revenue.
 - Contoso has the largest customer base with 7,924 unique customers nearly double that of other leading brands.
 - Tailspin Toys shows efficiency concerns despite 4,019 customers, generates only $668K (1.2% of revenue), indicating low order value and margin challenges.
 - Adventure Works dominates globally in the Computers category, leading sales across the US, UK, Canada, Italy, Netherlands, and France.
+
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Brand.webp)
 
 ---
 
