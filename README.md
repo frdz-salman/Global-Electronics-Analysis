@@ -83,7 +83,7 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 
 ![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Day%20detail.webp)
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Age%20Dist.webp)
+![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Avg%20Day%20Time.webp)
 
 ![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/weekend_weekday.webp)
 
