@@ -2,19 +2,28 @@
 
 ## Table of Contents
 
-1. [Project Background](#project-background)
-2. [Executive Summary](#executive-summary)
-3. [Insights Deep-Dive](#insights-deep-dive)
-   - [Business Overview & Annual Trends](#business-overview--annual-trends)
-   - [Geographic Performance](#geographic-performance)
-   - [Customer Demographics & Lifecycle](#customer-demographics--lifecycle)
-   - [Channel & Store Performance](#channel--store-performance)
-   - [Sales Patterns & Operations](#sales-patterns--operations)
-   - [Product Performance](#product-performance)
-   - [Brand Performance](#brand-performance)
-4. [Recommendations](#recommendations)
-5. [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
-6. [Detailed Reports](#detailed-reports)
+- [Global Electronics Retail Analysis](#global-electronics-retail-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [Project Background](#project-background)
+  - [Executive Summary](#executive-summary)
+  - [Insights Deep-Dive](#insights-deep-dive)
+    - [Business Overview \& Annual Trends](#business-overview--annual-trends)
+    - [Geographic Performance](#geographic-performance)
+    - [Customer Demographics \& Lifecycle](#customer-demographics--lifecycle)
+    - [Channel \& Store Performance](#channel--store-performance)
+    - [Sales Patterns \& Operations](#sales-patterns--operations)
+    - [Product Performance](#product-performance)
+    - [Brand Performance](#brand-performance)
+  - [Recommendations](#recommendations)
+    - [Maximizing Product Offerings](#maximizing-product-offerings)
+    - [Store Format Strategy](#store-format-strategy)
+    - [Customer Acquisition \& Retention](#customer-acquisition--retention)
+    - [Loyalty Strategy](#loyalty-strategy)
+    - [Market Expansion](#market-expansion)
+  - [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
+    - [Questions for Stakeholders](#questions-for-stakeholders)
+    - [Assumptions and Limitations](#assumptions-and-limitations)
+  - [Detailed Reports](#detailed-reports)
 
 ---
 
@@ -22,7 +31,9 @@
 
 Global Electronics Retailer is a multinational company selling a wide range of consumer electronics through both online and physical stores. The time series dataset contains details on customers, locations, products, sales, stores, and deliveries. The purpose of the analysis is to understand user behavior, identify trends, evaluate category performance, and provide data-driven recommendations to improve customer experience.
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/ERD.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/ERD.webp" alt="Sales Trends" width="900">
+</p>
 
 ---
 
@@ -40,9 +51,13 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 - Sales dropped 49% in 2020 from $18.2M to $9.3M due to the COVID-19 pandemic impact.
 - Seasonal peaks occur between December–February, with slowdowns in March–April reflecting typical retail patterns.
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Sales%20Trends.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Sales%20Trends.webp" alt="Sales Trends" width="700">
+</p>
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Annual%20Trends.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Annual%20Trends.webp" alt="Annual Trends" width="1400">
+</p>
 
 ### Geographic Performance
 
@@ -52,7 +67,9 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
   - The U.K. alone contributed 12.8% of total revenue ($7M), with 13.2% of the customer base (1,566 out of 11,820).
 - All top 10 performing states by revenue are in the U.S., each contributing 2.1% - 2.5% of total sales, serving 500+ customers with average $900 per-customer revenue.
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Sales%20Geo.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Sales%20Geo.webp" alt="Sales Trends" width="900">
+</p>
 
 ### Customer Demographics & Lifecycle
 
@@ -60,10 +77,12 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 - Total of 11,820 unique customers made 25,828 purchases, averaging 2.2 transactions each over the analysis period.
 - Unique customers increased from 2,561 (2016) to 6,497 (2019), then decreased 40% to 3,868 in 2020 due to pandemic impact.
 - Repeat purchase rate (≥ 2 orders) grew steadily from 10.9% (2016) to 30.1% (2019), before falling to 17.2% in 2020.
-
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Customer.webp)
-
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Age%20Dist.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Customer.webp" alt="Sales Trends" width="700">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Age%20Dist.webp" alt="Sales Trends" width="700">
+</p>
 
 ### Channel & Store Performance
 
@@ -71,7 +90,9 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 - Large stores lead performance with $26.4M in revenue, followed by Medium ($15.7M) and Small stores ($1.47M).
 - Store size directly correlates with higher sales and customer reach, highlighting scale as a key profitability driver.
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Store.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Store.webp" alt="Sales Trends" width="700">
+</p>
 
 ### Sales Patterns & Operations
 
@@ -80,12 +101,15 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
   - Sunday significantly lags with only $893K (6.8% of Saturday's total).
 - Average delivery time is 4.55 days, reflecting solid logistics performance and customer expectations.
 - Delivery efficiency has increased dramatically from 8+ days in 2016 to ~4 days in 2020, showing strong operational gains.
-
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Day%20detail.webp)
-
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Avg%20Day%20Time.webp)
-
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/weekend_weekday.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Day%20detail.webp" alt="Sales Trends" width="700">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Avg%20Day%20Time.webp" alt="Sales Trends" width="1200">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/weekend_weekday.webp" alt="Sales Trends" width="1200">
+</p>
 
 ### Product Performance
 
@@ -98,7 +122,9 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
   - Boxed Games 5.6% of units sold (10,825) but only 0.16% of revenue ($90.1K).
 - Washers & Dryers demonstrate premium positioning only 1,174 units sold but generate over $2.1M, with $1,000+ profit per unit.
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Product.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Product.webp" alt="Sales Trends" width="1200">
+</p>
 
 ### Brand Performance
 
@@ -107,7 +133,9 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 - Tailspin Toys shows efficiency concerns despite 4,019 customers, generates only $668K (1.2% of revenue), indicating low order value and margin challenges.
 - Adventure Works dominates globally in the Computers category, leading sales across the US, UK, Canada, Italy, Netherlands, and France.
 
-![Logo](https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Brand.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/Brand.webp" alt="Sales Trends" width="700">
+</p>
 
 ---
 
