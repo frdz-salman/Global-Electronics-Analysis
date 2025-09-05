@@ -35,6 +35,9 @@ Global Electronics Retailer is a multinational company selling a wide range of c
   <img src="https://raw.githubusercontent.com/frdz-salman/Global-Electronics-Analysis/refs/heads/master/visualization/ERD.webp" alt="Sales Trends" width="900">
 </p>
 
+<p align="center">Global Electronics Dataset ERD
+</p>
+
 ---
 
 ## Executive Summary
@@ -186,9 +189,9 @@ An analysis of 61,672 sales records with 25,828 orders from 2016 to 2020 shows t
 
 ### Assumptions and Limitations
 
-- Q1 2021 are available in the dataset. To prevent skewed insights, this period has been excluded from key trend analyses and annual comparisons .
+- Q1 2021 are available in the dataset. To prevent skewed insights, this period has been excluded from key trend analyses and annual comparisons.
 - Transaction Completeness: The analysis assumes all customer transactions are captured in the dataset, whereas there may be purchases or returns outside the system.
-- Digital Adoption: The assumption that digital investment will increase online sales may not hold true if customer preference remains skewed towards physical stores .
+- Digital Adoption: The assumption that digital investment will increase online sales may not hold true if customer preference remains skewed towards physical stores.
 
 ---
 
